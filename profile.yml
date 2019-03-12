@@ -10,7 +10,7 @@ cover: "/"
 name: John Doe
 photo: "./images/profile-example.jpg"
 introduction:
-  - Hello! I'm John Doe. I'm Software Engineer.
+  - Hello! I'm Joseph Kim. I'm Software Engineer.
   - I enjoy playing games and eating. I'm happiest when I eat. I like pork.
 
 # Profile link config [views/sections/profile.ejs]
