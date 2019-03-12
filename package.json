@@ -1,0 +1,21 @@
+{
+  "name": "simple-resume",
+  "version": "0.0.1",
+  "repository": "https://github.com/suitelab/simple-resume.git",
+  "author": "yoon.homme <woosiks.io@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app",
+    "pdf": "node public/scripts/export"
+  },
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "autolinker": "^1.8.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "js-yaml": "^3.12.0",
+    "nodemon": "^1.18.9",
+    "puppeteer": "^1.11.0",
+    "rxjs": "^6.3.3"
+  }
+}

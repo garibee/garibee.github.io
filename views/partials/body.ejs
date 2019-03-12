@@ -1,0 +1,30 @@
+<body>
+  <div class="header">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+  <div class="container">
+    <% if (profile) { %>
+      <% include ../sections/profile %>
+    <% } %>
+    <% if (profile.skills) { %>
+      <% include ../sections/skills %>
+    <% } %>
+    <% if (profile.careers) { %>
+      <% include ../sections/careers %>
+    <% } %>
+    <% if (profile.experiences) { %>
+      <% include ../sections/experiences %>
+    <% } %>
+    <% if (profile.educations) { %>
+      <% include ../sections/education %>
+    <% } %>
+    <% if (profile.licenses) { %>
+      <% include ../sections/license %>
+    <% } %>
+    <% if (profile.aboutme) { %>
+      <% include ../sections/about %>
+    <% } %>
+  </div>
+</body>
