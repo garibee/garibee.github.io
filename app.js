@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 let filename = process.argv[2];
 if (filename == null) {
-  filename = "profile-example";
+  filename = "personal/profile-me";
 }
 
 const profile = yaml.safeLoad(fs.readFileSync(`${filename}.yml`, "utf8"));
