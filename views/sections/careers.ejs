@@ -26,8 +26,10 @@
         </ul>
       </div>
       <% for (const project of company.projects) { %>
+
         <div class="project">
-          <h4><i class="fas fa-angle-right"></i><%= project.name %></h4>
+          <h4 style="color:#0000FF"><i class="/*fas*/ fa-angle-right"></i><%= project.name %></h4>
+          <div class="headline"></div>
           <span class="time">
             <time datetime="<%= project.period.start %>">
               <%= project.period.start %>
@@ -37,16 +39,17 @@
             </time>
           </span>
           <% if (project.description) {%>
-          <h5>Description</h5>
+          <h5>개요</h5>
           <p><%= project.description %></p>
           <% } %>
           <% if (project.parts) {%>
-          <h5>What did I do</h5>
+          <h5>무엇을 했나요?</h5>
           <ul>
             <% for (const part of project.parts) { %>
               <li><%= part %></li>
             <% } %>
           </ul>
+
           <% } %>
         </div>
       <% } %>
