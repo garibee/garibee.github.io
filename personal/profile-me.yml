@@ -8,7 +8,7 @@ cover: "/personal/resume-cover.png"
 # 이력서 상단에 들어갈 사진과 이름, 간단 소개입니다.
 # A picture, name and brief introduction to the top of your resume.
 name: 김 요 셉
-photo: "profile-me.jpeg"
+photo: "profile-me.jpg"
 introduction:
   - 안녕하세요 4년차 웹 개발자 김요셉입니다. 
   - 개발자의 집요함에서 좋은 성능이 나온다고 생각합니다.

@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 let filename = process.argv[2];
 if (filename == null) {
-  filename = "personal/profile-me";
+    filename = "personal/profile-me";
 }
 
 const profile = yaml.safeLoad(fs.readFileSync(`${filename}.yml`, "utf8"));
@@ -21,9 +21,12 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "personal")));
 
 app.get("/", (req, res) => {
-  res.render("index", { profile, Autolinker });
+    res.render("index", {
+        profile,
+        Autolinker
+    });
 });
 
 app.listen(port, () => {
-  console.log(`your resume [${filename}] in http://localhost:${port} !`);
+    console.log(`your resume [${filename}] in http://localhost:${port} !`);
 });
