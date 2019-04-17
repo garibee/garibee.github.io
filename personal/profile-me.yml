@@ -161,9 +161,9 @@ careers:
           end: '2016.06'
         description: 개발팀의 신입으로 각 관리자 페이지를 개발하여 자동화하거나, 라이브중인 서비스들의 버그 픽스등의 업무를 진행하였습니다.
         parts: #what did i do
-          - 그래프를 이용한 핏단기 모의고사 성적표 UI 개편
           - 구글 애널리틱스를 적용, 마케팅 스크립트 자동화
           - XE게시판의 파악 가능한 모든 룰을 동일하게 API화 개발
+          - CS관리자 페이지 및 회원 서비스 관리자 개발
       
 # Other Experiences config [views/sections/experiences.ejs]
 # 기타 경험 설정입니다. 이름, 역할, 기간, 요약등을 추가할 수 있습니다.
