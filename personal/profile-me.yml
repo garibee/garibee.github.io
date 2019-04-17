@@ -93,7 +93,7 @@ careers:
       - name: '스카이에듀 회원 통합'
         period:
           start: '2018.09'
-          end: '2019.12'
+          end: '2019.02'
         description: 타 법인으로서 완전 분리되어 존재하던 스카이에듀 회원을 쿠폰, 캐시, 상품, 회원정보 등 기존과 동일한 환경을 구성하여 이관, 커넥츠에서 동일하게 이용 가능토록 하였습니다.
         parts: #what did i do
           - 이관 시 이관 성공과 오류 분석을 위한 테이블 설계
@@ -149,7 +149,7 @@ careers:
       - name: '회원 REST API 개발'
         period:
           start: '2016.07'
-          end: '진행 중'
+          end: '2016.10'
         description: 현행중인 자사의 서비스에서 사용할 수 있도록 회원정보 API를 개발하였습니다.
         parts: #what did i do
           - 송/수신자 검증을 위한 API통신 암호화 적용
