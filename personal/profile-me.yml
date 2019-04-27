@@ -108,8 +108,8 @@ careers:
         description: 소셜 계정으로 로그인 할 수 있도록 SNS로그인 서비스를 개발하였습니다. 
         parts: #what did i do
           - OAuth2.0 기반인 Lusitanian/OAuth Library를 이용한 카카오, 페이스북 로그인 개발
-          - SNS 로그인 시 Single Sign On 동일하게 적용
-      
+          - SNS 로그인 시 Single Sign On 적용
+
       - name: 'Single Sign On 서비스 적용'
         period:
           start: '2017.07'
