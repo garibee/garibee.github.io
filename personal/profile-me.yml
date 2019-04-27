@@ -121,7 +121,7 @@ careers:
           - HTTP referrer 정보를 이용한 로그인/로그아웃 경로 이력 관리 적용
           - Redis를 활용한 SSO자동 로그인 기능 개발
 
-      - name: 'OAuth2.0을 이용한 상품 권한 제공'
+      - name: 'OAuth2.0을 활용한 상품 권한 제공'
         period:
           start: '2017.04'
           end: '2017.05'
