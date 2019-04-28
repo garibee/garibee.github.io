@@ -156,7 +156,7 @@ experiences:
     description:
       - 출근 시 입을 옷을 살피기 위해 출근 30분 전 주간 날씨를 알려 주는 알림 봇입니다.
       - Nodejs환경으로 공공데이터 API를 이용하였으며 Google Cloud App Engine과, Cloud 스케쥴러를 사용합니다.
-
+      - https://github.com/garibee/weather
        
 
 
