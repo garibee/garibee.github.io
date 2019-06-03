@@ -114,7 +114,7 @@ careers:
         period:
           start: '2017.07'
           end: '2017.09'
-        description: 수 십 개에 달하는 자사의 서비스에 대해 도메인과 프로그래밍 언어에 관계없이 멤버십 서비스를 하나로 통합하였습니다.
+        description: 자 사내 여러 서비스에서 도메인과 프로그래밍 언어에 관계없이 로그인할 수 있도록 멤버십 서비스를 통합하였습니다.
         parts: #what did i do
           - SAML을 이용한 SSO 서비스 적용
           - 송/수신간 데이터 위변조 확인을 위한 HMAC검증 로직 추가
@@ -125,10 +125,11 @@ careers:
         period:
           start: '2017.04'
           end: '2017.05'
-        description: 끝장보카APP을 영단기 회원 인증을 통해 이용할 수 있도록 Oauth2.0을 활용하여 서비스간 연동하였습니다.
+        description: 끝장보카APP을 영단기 회원 인증을 통해 이용할 수 있도록 OAuth2.0을 활용하여 서비스간 연동하였습니다.
         parts: #what did i do
           - Resource Server 관리 및 유지보수
           - Access Token을 이용한 상품 권한 조회 REST API 개발
+          - 선택/필수 이용약관 자동화 개발
 
       - name: '권한 관리 시스템 유지보수'
         period:
