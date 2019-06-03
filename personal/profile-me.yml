@@ -10,7 +10,7 @@ cover: "/personal/resume-cover.png"
 name: 김 요 셉
 photo: "profile-me.jpg"
 introduction:
-  - 안녕하세요 4년차 웹 개발자 김요셉입니다. 
+  - 안녕하세요 4년 차 서버 개발자 김요셉입니다. 
   - 개발자의 집요함에서 좋은 성능이 나온다고 생각합니다.
   - 천천히 가더라도 멈추지 않는 사람이 되겠습니다.
   #- 개발과 계발에 늘 정진하겠습니다.
@@ -37,10 +37,10 @@ links:
   # - name: https://www.linkedin.com/in/johndoe
   #   symbol: fas fab fa-linkedin
   #   type: linkedin
-  - name: https://blog.naver.com/tang2e
+  #- name: https://blog.naver.com/tang2e
   #https://tang2e.appspot.com/
-    symbol: fas fa-home
-    type: blog
+  #  symbol: fas fa-home
+  #  type: blog
 
 # Skills config [views/sections/skills.ejs]
 # 보유기술 설정입니다. 항목을 자유롭게 추가할 수 있습니다.
@@ -95,7 +95,7 @@ careers:
         period:
           start: '2018.09'
           end: '2019.02'
-        description: 스카이에듀 회원이 보유중인 상품과 회원정보를 커넥츠 서비스에서 동일하게 이용 가능토록 환경을 구성하여 회원 정보를 이관(Migration)하였습니다.
+        description: 스카이에듀 회원이 보유중인 상품과 회원 정보를 커넥츠 서비스에서 동일하게 이용 가능토록 구성하여 데이터를 이관하였습니다.
         parts: #what did i do
           - 이관 시 성공/실패의 확인과 재시도를 위한 테이블 설계
           - 상품, 쿠폰, 회원 정보 이관 REST API 개발
@@ -114,7 +114,7 @@ careers:
         period:
           start: '2017.07'
           end: '2017.09'
-        description: 자 사내 여러 서비스에서 도메인과 프로그래밍 언어에 관계없이 로그인할 수 있도록 멤버십 서비스를 통합하였습니다.
+        description: 자사내 여러 서비스에서 도메인과 프로그래밍 언어에 관계없이 로그인할 수 있도록 멤버십 서비스를 통합하였습니다.
         parts: #what did i do
           - SAML을 이용한 SSO 서비스 적용
           - 송/수신간 데이터 위변조 확인을 위한 HMAC검증 로직 추가
