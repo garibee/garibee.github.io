@@ -10,7 +10,7 @@ cover: "/personal/resume-cover.png"
 name: 김 요 셉
 photo: "profile-me.jpg"
 introduction:
-  - 수면 아래 오리의 발처럼, 보이지 않는 곳에서도 빠르고 정교한 백엔드 개발자가 되는 것이 개발자로서의 제 목표입니다.
+  - 수면 아래 오리의 발처럼, 보이지 않는 곳에서도 빠르고 정교한 백엔드 개발자가 되는 것이 개발자로서의 목표입니다.
   #- 개발과 계발에 늘 정진하겠습니다.
 
 # Profile link config [views/sections/profile.ejs]
