@@ -1,8 +1,8 @@
 # Head config [views/partials/head.ejs]
 # Meta tag 관련 설정입니다.
 # Meta tag-related settings.
-blogUrl: https://github.com/garibee
-description: 백엔드 개발자 김요셉의 이력서입니다.
+#blogUrl: https://github.com/garibee
+description: 개발팀 지원자 김요셉의 이력서입니다.
 cover: "/personal/resume-cover.png"
 # Resume config [views/partials/profile.ejs]
 # 이력서 상단에 들어갈 사진과 이름, 간단 소개입니다.
@@ -10,8 +10,7 @@ cover: "/personal/resume-cover.png"
 name: 김 요 셉
 photo: "profile-me.jpg"
 introduction:
-  - 수면 아래 오리의 발처럼, 보이지 않는 곳에서도 빠르고 정교한 백엔드 개발자가 되는 것이 개발자로서의 목표입니다.
-  #- 개발과 계발에 늘 정진하겠습니다.
+  - 수면 아래 오리의 발처럼, 보이지 않는 곳에서도 빠르고 정교한 개발자가 되겠습니다.
 
 # Profile link config [views/sections/profile.ejs]
 # email, github, linkedin, blog의 주소와 아이콘 설정입니다.
@@ -46,19 +45,20 @@ links:
 # This is a technology setting. You can add items freely.
 skills:
   Application:
-    - PHP
-    - Java
+    - PHP(Codeigniter)
+    - Java(Spring)
+    - Angualrjs
     - JavaScript
-    - Node.js
+    - Nodejs
+    - MySql    
     - Oracle
-    - MySql
-    - Ubuntu
-    - Git
   Utilities:
     - Amazon Web Service
     - Google Cloud Platform
+    - Git
   Business Tools:
-    - Slack
+    - JIRA, Wiki
+    - JANDI, Slack
 
 
 # Careers config [views/sections/careers.ejs]
@@ -72,11 +72,57 @@ skills:
 # When adding a project, copy and use "-name" under projects.
 careers:
   - company:
-    name: ST Unitas
-    role: 멤버십서비스 개발자/사원
+    name: (주)토스랩
+    role: 프론트엔드 개발자/사원
     workPeriod:
-      start: '2015.08'
-      end: '진행 중'
+      start: '2019.09.09'
+      end: '현재 재직중'
+    techStack:
+      Language:
+        - Angularjs
+      System:
+        - Nodejs
+        - SocketIO
+        - Electron
+#      Tool:
+#        - Git
+    projects:
+      - name: '관리자 대시보드 페이지 개발'
+        period:
+          start: '2020.04'
+          end: '2020.04'
+        description: 기존의 전체 사용량만 확인 가능했던 페이지를 개편하여, 팀과 멤버별 사용량 전반의 세부를 볼 수 있도록 도식화한 페이지를 개발했습니다. 
+        parts: #what did i do
+          - Toast UI의 Donut, Line, Pie Chart를 이용하여 도식화 진행
+          - 팀별, 멤버별 상세보기 등 대시보드 기능 전반의 프론트페이지 개발
+          - 그래프 렌더링시 발생하는 긴 로드 타임의 사용성 개선 작업 진행 중
+
+      - name: '결제 페이지 개편'
+        period:
+          start: '2019.12'
+          end: '2020.01'
+        description: 구(old)관리자에 오랜 시간 방치되어있던 레거시 결제 페이지를 이관하고, 리브랜딩 버전의 신규 UI 작업을 진행하였습니다.
+        parts: #what did i do
+          - 결제 페이지를 신규 관리자 페이지로 이관하며, UI개편과 미사용 코드의 정리 진행
+          - 결제 정보의 조회와 수정, 크레딧 사용 이력 등 가시적으로 살펴 볼 수 있는 페이지 신규 개발
+          - Socket Event를 이용하여 결제 정보 변경시 결제이력 실시간 반영
+          
+      - name: 'Thread 메시지 개발'
+        period:
+          start: '2019.11'
+          end: '2019.11'
+        description: 일반 메시지에 댓글을 등록 할 수 있도록하는 Thread메시지 작업에 참여했습니다. 
+        parts: #what did i do
+          - Thread메시지로 변경된 댓글 정책과 함께 댓글 영역 스크롤 페이징으로 전환 작업 진행
+          - 클릭한 댓글의 highlight 처리 및 focus 적용
+          - 투표, 파일, 메시지 댓글 기능 내 미사용 코드 개선
+                     
+  - company:
+    name: ST Unitas
+    role: 백엔드서비스 개발자/사원
+    workPeriod:
+      start: '2015.08.10'
+      end: '2019.09.03'
     techStack:
       Language:
         - PHP/Codeigniter
@@ -95,9 +141,9 @@ careers:
           end: '2019.02'
         description: 스카이에듀 회원이 보유중인 상품과 회원 정보를 커넥츠 서비스에서 동일하게 이용 가능토록 구성하여 데이터를 이관하였습니다.
         parts: #what did i do
-          - 이관 시 성공/실패의 확인과 재시도를 위한 테이블 설계
-          - 상품, 쿠폰, 회원 정보 이관 REST API 개발
-          - 회원 이관 프론트 페이지 개발
+          - 회원 이관시 모든 단계를 기록하여, 불특정 오류등으로 인해 이관 실패시 재시도를 할 수 있도록 테이블 설계
+          - 상품, 쿠폰, 회원 정보 이관 API 개발
+          - 회원 이관 페이지 개발
 
       - name: 'SNS 로그인 개발'
         period:
@@ -133,7 +179,7 @@ careers:
         period:
           start: '2017.04'
           end: '2017.05'
-        description: 끝장보카APP을 영단기 회원 인증을 통해 이용할 수 있도록 OAuth2.0을 활용하여 서비스간 연동하였습니다.
+        description: 타 사의 App을 영단기 회원 인증을 통해 이용할 수 있도록 OAuth2.0을 활용하여 B2B서비스간 연동을 진행했습니다.
         parts: #what did i do
           - Resource Server 관리 및 유지보수
           - Access Token을 이용한 상품 권한 조회 REST API 개발
@@ -146,7 +192,7 @@ careers:
         description: 사업부개발팀 파견으로 모바일 웹 페이지를 개발하였으며, 타 개발팀의 여러 소스들을 경험해 볼 수 있었습니다.
         parts: #what did i do
           - 공단기, 법검단기, 소방단기, 문성용 소리드림, 자단기, 공기업단기, 임용단기 등 20여 개 모바일 웹 페이지 개발
-          - 사업부개발팀의 라이브러리를 분석하여 커스텀
+          - 타 사업부개발팀의 라이브러리를 분석하여 커스터마이즈 진행
 
       - name: '권한 관리 시스템 유지보수'
         period:
@@ -157,6 +203,7 @@ careers:
           - 권한 신청/승인/반려 시 Thread와 Mailer를 이용하여 이메일 서비스 제공
           - 부트스트랩을 이용한 UI 작업 진행
 
+
       
 
       
@@ -166,17 +213,17 @@ careers:
 
 # Other experience settings. You can add names, roles, periods, and summaries.
 # When adding an item, copy and use -experience to description under otherExperience.
-experiences:
-  - experience:
-    name: 날씨 알리미 슬랙 봇 개발
-    role: 자체진행
-    period:
-      start: '2019.03'
-      end: '2019.03'
-    description:
-      - 출근 시 입을 옷을 살피기 위해 출근 30분 전 주간 날씨를 알려 주는 알림 봇입니다.
-      - Nodejs환경으로 공공데이터 API를 이용하였으며 Google Cloud App Engine과, Google Cloud 스케쥴러를 사용합니다.
-      - https://github.com/garibee/weather
+#experiences:
+#  - experience:
+#    name: 날씨 알리미 슬랙 봇 개발
+#    role: 자체진행
+#    period:
+#      start: '2019.03'
+#      end: '2019.03'
+#    description:
+#      - 출근 시 입을 옷을 살피기 위해 출근 30분 전 주간 날씨를 알려 주는 알림 봇입니다.
+#      - Nodejs환경으로 공공데이터 API를 이용하였으며 Google Cloud App Engine과, Google Cloud 스케쥴러를 사용합니다.
+#      - https://github.com/garibee/weather
        
 
 
