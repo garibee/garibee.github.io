@@ -1,6 +1,6 @@
 ## Demo
 * simple-resume
-<http://35.222.168.97>
+~~<http://35.222.168.97>~~ GCP 요금제 만료..
 * pdf
 npm run pdf 파일명
 
